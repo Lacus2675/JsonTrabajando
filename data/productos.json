@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "marca": "Cif",
+        "modelo": "Blanqueador",
+        "precio": "300"
+    },
+    
+    {
+        "id": 2,
+        "marca": "Ala",
+        "modelo": "Limon",
+        "precio": "100"
+    },
+    
+    {
+        "id": 3,
+        "marca": "Ariel",
+        "modelo": "Heroe",
+        "precio": "300"
+    },
+
+    {
+        "id": 4,
+        "marca": "Clorox",
+        "modelo": "Cloro",
+        "precio": "500"
+    }
+]

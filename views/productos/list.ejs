@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Nete</title>
+</head>
+<body>
+    <main>
+        <div> 
+            <div>
+                <% productos.forEach(producto => { %>
+                    <br>
+                    <div>
+                        <%= producto.marca %>
+                    </div>
+            
+                    <div>
+                        <%= producto.modelo %>
+                    </div>
+                
+                    <div>
+                        <%= producto.precio %>
+                    </div>
+
+                    <!-- Agrega un enlace a la vista de detalles para cada producto -->
+                    <div>
+                        <a href="/productos/<%= producto.id %>">Ver detalles</a>
+                    </div>
+                <% }) %>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
